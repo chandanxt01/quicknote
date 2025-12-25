@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FIX: Changed parent to Theme.AppCompat.Light.NoActionBar -->
+    <!-- Ye zaroori hai kyunki MainActivity ab AppCompatActivity extend kar rahi hai -->
+    <style name="Theme.QuickNote" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- Splash Screen Theme (Starting Theme) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Splash screen background color -->
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+
+        <!-- Icon jo center me dikhega -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Splash khatam hone ke baad konsi theme apply karni hai -->
+        <item name="postSplashScreenTheme">@style/Theme.QuickNote</item>
+    </style>
+</resources>

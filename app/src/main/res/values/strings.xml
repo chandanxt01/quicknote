@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quick Note</string>
+
+    <!-- Biometric / App Lock Strings -->
+    <string name="unlock_quicknote">Unlock QuickNote</string>
+    <string name="biometric_subtitle">Use your fingerprint or PIN to access notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="locked_icon_desc">App Locked</string>
+    <string name="app_is_locked">QuickNote is Locked</string>
+    <string name="unlock_app_btn">Unlock App</string>
+
+    <!-- Home Screen -->
+    <string name="quick_notes_title">Quick Notes</string>
+    <string name="add_note_desc">Add note</string>
+    <string name="search_desc">Search</string>
+    <string name="sort_desc">Sort</string>
+    <string name="delete_note_desc">Delete note</string>
+    <string name="note_deleted_msg">Note deleted</string>
+    <string name="undo_action">Undo</string>
+
+    <!-- Order Section -->
+    <string name="order_title">Title</string>
+    <string name="order_date">Date</string>
+    <string name="order_color">Color</string>
+    <string name="order_ascending">Ascending</string>
+    <string name="order_descending">Descending</string>
+
+    <!-- Note Detail Screen -->
+    <string name="enter_title_hint">Enter title...</string>
+    <string name="enter_content_hint">Enter some content...</string>
+    <string name="save_note_desc">Save note</string>
+    <string name="note_saved_msg">Note saved successfully</string>
+    <string name="error_saving_note">Couldn\'t save note</string>
+    <string name="pin_note_desc">Pin Note</string>
+    <string name="unpin_note_desc">Unpin Note</string>
+    <string name="archive_note_desc">Archive Note</string>
+    <string name="unarchive_note_desc">Unarchive Note</string>
+    <string name="edit_note">Edit Note</string>
+
+    <!-- Search Screen -->
+    <string name="search_hint">Search notes...</string>
+    <string name="back_desc">Back</string>
+</resources>
